@@ -19,7 +19,7 @@
   "author": "Jim Counter",
   "license": "MIT",
   "devDependencies": {
-    "@polkadot/api": "^7",
+    "@polkadot/api": "6",
     "@subql/types": "latest",
     "typescript": "^4.1.3",
     "@subql/cli": "latest"
