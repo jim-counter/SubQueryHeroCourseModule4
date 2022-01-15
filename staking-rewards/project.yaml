@@ -19,3 +19,8 @@ dataSources:
           filter:
             module: staking
             method: Rewarded # NOTE: This method was called Reward before ~block 6,700,000
+        - handler: handleSumRewarded
+          kind: substrate/EventHandler
+          filter:
+            module: staking
+            method: Rewarded # NOTE: This method was called Reward before ~block 6,700,000
