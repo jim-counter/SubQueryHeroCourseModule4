@@ -89,13 +89,21 @@ For the `subql-starter` project, you can try to query with the following code to
 
 ````graphql
 {
-  query{
-    starterEntities(first:10){
-      nodes{
-        field1,
-        field2,
-        field3
-      }
+  query {
+    stakingRewards (first: 5) {
+        nodes {
+            id
+            accountId
+            balance
+            date
+        }
+    }
+    sumRewards (first: 5) {
+        nodes {
+            id
+            totalReward
+            blockHeight
+        }
     }
   }
 }
